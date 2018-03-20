@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA19F2D92057D410008DE805 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA19F2D82057D410008DE805 /* Info.plist */; };
+		BA86366D205F9B93006EA732 /* libQQRedPackHelper.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BA86363C205F9B08006EA732 /* libQQRedPackHelper.dylib */; };
+		BAF35DA2206102E7008AC63F /* QQPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF35DA1206102E7008AC63F /* QQPlugin.m */; };
+		BAF35DA720610581008AC63F /* libsubstitute.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF35DA620610581008AC63F /* libsubstitute.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA19F2D42057D410008DE805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA19F2C62057D410008DE805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA19F2CE2057D410008DE805;
+			remoteInfo = QQPlugin;
+		};
+		BA86363B205F9B08006EA732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA863637205F9B08006EA732 /* QQRedPackHelper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0ADF9AA52026EB7E0048E625;
+			remoteInfo = QQRedPackHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA19F2CF2057D410008DE805 /* QQPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QQPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA19F2D32057D410008DE805 /* QQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA19F2D82057D410008DE805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA863637205F9B08006EA732 /* QQRedPackHelper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = QQRedPackHelper.xcodeproj; sourceTree = "<group>"; };
+		BAF35DA1206102E7008AC63F /* QQPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQPlugin.m; sourceTree = "<group>"; };
+		BAF35DA620610581008AC63F /* libsubstitute.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstitute.dylib; path = ../../../../../../../../opt/MonkeyDev/MFrameworks/libsubstitute.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA19F2CB2057D410008DE805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF35DA720610581008AC63F /* libsubstitute.dylib in Frameworks */,
+				BA86366D205F9B93006EA732 /* libQQRedPackHelper.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA19F2C52057D410008DE805 = {
+			isa = PBXGroup;
+			children = (
+				BA19F2D62057D410008DE805 /* QQPlugin */,
+				BA19F2D02057D410008DE805 /* Products */,
+				BA86366C205F9B93006EA732 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA19F2D02057D410008DE805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA19F2CF2057D410008DE805 /* QQPlugin.framework */,
+				BA19F2D32057D410008DE805 /* QQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA19F2D62057D410008DE805 /* QQPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				BA863604205F9B07006EA732 /* AsTryE */,
+				BA19F2D72057D410008DE805 /* Supporting Files */,
+			);
+			path = QQPlugin;
+			sourceTree = "<group>";
+		};
+		BA19F2D72057D410008DE805 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA19F2D82057D410008DE805 /* Info.plist */,
+				BAF35DA1206102E7008AC63F /* QQPlugin.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA863604205F9B07006EA732 /* AsTryE */ = {
+			isa = PBXGroup;
+			children = (
+				BA863637205F9B08006EA732 /* QQRedPackHelper.xcodeproj */,
+			);
+			path = AsTryE;
+			sourceTree = "<group>";
+		};
+		BA863638205F9B08006EA732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA86363C205F9B08006EA732 /* libQQRedPackHelper.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA86366C205F9B93006EA732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAF35DA620610581008AC63F /* libsubstitute.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA19F2CC2057D410008DE805 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BA19F2CE2057D410008DE805 /* QQPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA19F2E82057D410008DE805 /* Build configuration list for PBXNativeTarget "QQPlugin" */;
+			buildPhases = (
+				BA19F2CA2057D410008DE805 /* Sources */,
+				BA19F2CB2057D410008DE805 /* Frameworks */,
+				BA19F2CC2057D410008DE805 /* Headers */,
+				BA19F2CD2057D410008DE805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQPlugin;
+			productName = QQPlugin;
+			productReference = BA19F2CF2057D410008DE805 /* QQPlugin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA19F2D22057D410008DE805 /* QQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA19F2EB2057D410008DE805 /* Build configuration list for PBXNativeTarget "QQ" */;
+			buildPhases = (
+				BA19F2D12057D410008DE805 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA19F2D52057D410008DE805 /* PBXTargetDependency */,
+			);
+			name = QQ;
+			productName = QQ;
+			productReference = BA19F2D32057D410008DE805 /* QQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA19F2C62057D410008DE805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = TozyZuo;
+				TargetAttributes = {
+					BA19F2CE2057D410008DE805 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					BA19F2D22057D410008DE805 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA19F2C92057D410008DE805 /* Build configuration list for PBXProject "QQPlugin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA19F2C52057D410008DE805;
+			productRefGroup = BA19F2D02057D410008DE805 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BA863638205F9B08006EA732 /* Products */;
+					ProjectRef = BA863637205F9B08006EA732 /* QQRedPackHelper.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BA19F2CE2057D410008DE805 /* QQPlugin */,
+				BA19F2D22057D410008DE805 /* QQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BA86363C205F9B08006EA732 /* libQQRedPackHelper.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libQQRedPackHelper.dylib;
+			remoteRef = BA86363B205F9B08006EA732 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA19F2CD2057D410008DE805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA19F2D92057D410008DE805 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA19F2D12057D410008DE805 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_NAME=\"QQ\"\nFRAMEWORK_NAME=\"QQPlugin\"\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${APP_NAME}.app\"\ncp -r \"${PROJECT_DIR}/${APP_NAME}.app\" \"${BUILT_PRODUCTS_DIR}/\"\n\nAPP_BUNDLE_PATH=\"${BUILT_PRODUCTS_DIR}/${APP_NAME}.app/Contents/MacOS\"\nAPP_EXECUTABLE_PATH=\"${APP_BUNDLE_PATH}/${APP_NAME}\"\n\ncp -r \"${BUILT_PRODUCTS_DIR}/${FRAMEWORK_NAME}.framework\" ${APP_BUNDLE_PATH}\n\ninsert_dylib --all-yes \"@loader_path/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"$APP_EXECUTABLE_PATH\" \"$APP_EXECUTABLE_PATH\"\n\ncp -r \"${MonkeyDevPath}/MFrameworks/libsubstitute.dylib\" ${APP_BUNDLE_PATH}\n\n#insert_dylib --all-yes \"@loader_path/libsubstitute.dylib\" \"$APP_EXECUTABLE_PATH\" \"$APP_EXECUTABLE_PATH\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA19F2CA2057D410008DE805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF35DA2206102E7008AC63F /* QQPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA19F2D52057D410008DE805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA19F2CE2057D410008DE805 /* QQPlugin */;
+			targetProxy = BA19F2D42057D410008DE805 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA19F2E62057D410008DE805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				MonkeyDevPath = /opt/MonkeyDev;
+				ONLY_ACTIVE_ARCH = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA19F2E72057D410008DE805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MonkeyDevPath = /opt/MonkeyDev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA19F2E92057D410008DE805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = H6D9Z3495Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = QQPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QQPlugin/Source/HookZz",
+					"$(PROJECT_DIR)/QQPlugin/Source",
+					/opt/MonkeyDev/MFrameworks,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.QQPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BA19F2EA2057D410008DE805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = H6D9Z3495Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = QQPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QQPlugin/Source/HookZz",
+					"$(PROJECT_DIR)/QQPlugin/Source",
+					/opt/MonkeyDev/MFrameworks,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.QQPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BA19F2EC2057D410008DE805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H6D9Z3495Q;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = QQPlugin/Info.plist;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = QQ;
+			};
+			name = Debug;
+		};
+		BA19F2ED2057D410008DE805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H6D9Z3495Q;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = QQPlugin/Info.plist;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = QQ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA19F2C92057D410008DE805 /* Build configuration list for PBXProject "QQPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA19F2E62057D410008DE805 /* Debug */,
+				BA19F2E72057D410008DE805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA19F2E82057D410008DE805 /* Build configuration list for PBXNativeTarget "QQPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA19F2E92057D410008DE805 /* Debug */,
+				BA19F2EA2057D410008DE805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA19F2EB2057D410008DE805 /* Build configuration list for PBXNativeTarget "QQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA19F2EC2057D410008DE805 /* Debug */,
+				BA19F2ED2057D410008DE805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA19F2C62057D410008DE805 /* Project object */;
+}
