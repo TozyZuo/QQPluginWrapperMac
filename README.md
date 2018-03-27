@@ -3,6 +3,8 @@
 
 感谢[@AsTryE/QQRedPackHelper](https://github.com/AsTryE/QQRedPackHelper)的功能支持。
 
+将官方下的QQ.app放到 “put mac app here” 文件的同级文件夹，打开项目，build/run 会生成新的QQ.app，用新的QQ.app替换官方app即可。
+
 ---
 
 目前已集成如下pod
